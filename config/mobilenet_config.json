@@ -1,0 +1,16 @@
+
+{
+	"model"				: "mobilenet",
+	"weights" 			: "imagenet",
+	"include_top" 		: false,
+
+	"train_path" 		: "D:/TransferLearningDemo/dataset/vehicle",
+	"features_path"	 	: "output/vehicle/mobilenet/features.h5",
+	"labels_path" 		: "output/vehicle/mobilenet/labels.h5",
+	"results" 		    : "output/vehicle/mobilenet/results.txt",
+	"classifier_path" 	: "output/vehicle/mobilenet/classifier.cpickle",
+
+	"test_size" 		: 0.20,
+	"seed" 			    : 1983,
+	"num_classes" 		: 4
+}

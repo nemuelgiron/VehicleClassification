@@ -1,0 +1,16 @@
+
+{
+	"model"				: "inceptionresnetv2",
+	"weights" 			: "imagenet",
+	"include_top" 		: false,
+
+	"train_path" 		: "D:/TransferLearningDemo/dataset/vehicle",
+	"features_path"	 	: "output/vehicle/inceptionresnetv2/features.h5",
+	"labels_path" 		: "output/vehicle/inceptionresnetv2/labels.h5",
+	"results" 		    : "output/vehicle/inceptionresnetv2/results.txt",
+	"classifier_path" 	: "output/vehicle/inceptionresnetv2/classifier.cpickle",
+
+	"test_size" 		: 0.20,
+	"seed" 			    : 1983,
+	"num_classes" 		: 4
+}
